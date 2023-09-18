@@ -14,8 +14,8 @@ The file structure is as follows:
 │   └── transform_utils.py                      # Data transforms helper functions
 ├── inference.py                                # The main inference script
 ├── input                                       # Input folder
-|   └── SingleCoil
-|       └── Cine
+|   └── SingleCoil                              # Single coil data
+|       └── Cine                                # Cine task
 |           └── xSet                            # Training, Validation or TestSet                                             
 |               ├── AccFactor04                 # Acceleration factor 4
 |               ├── AccFactor08                 # Acceleration factor 8
