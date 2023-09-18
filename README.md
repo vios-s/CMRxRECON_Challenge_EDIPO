@@ -37,15 +37,15 @@ The file structure is as follows:
 │   ├── __init__.py
 │   └── mri_module.py                           # MRI module, parent of all other network pl_modules
 ├── README.md
-├── requirements.txt
-└── utils                                       # Utility functions                                    
-|    ├── evaluate.py                            # Evaluation functions                           
-|    ├── fft.py                                 # FFT functions                                       
-|    ├── __init__.py
-|    ├── io.py                                  # IO functions, save reconstructions to mat                                    
-|    ├── losses.py                              # Loss functions
-|    └── math.py                                # Complex math functions
-|___ visualize_and_evaluate.py                  # Code to make some visualization of recon images and compute SSIM-NMSE-PSNR metrics
+├── requirements.txt                            # Need to pip install this file
+├── utils                                       # Utility functions                                    
+│    ├── evaluate.py                            # Evaluation functions                           
+│    ├── fft.py                                 # FFT functions                                       
+│    ├── __init__.py
+│    ├── io.py                                  # IO functions, save reconstructions to mat                                    
+│    ├── losses.py                              # Loss functions
+│    └── math.py                                # Complex math functions
+└── visualize_and_evaluate.py                  # Code to make some visualization of recon images and compute SSIM-NMSE-PSNR metrics
 ```
 
 ## How to run
