@@ -13,10 +13,12 @@ The file structure is as follows:
 │   ├── transforms.py                           # Data transforms
 │   └── transform_utils.py                      # Data transforms helper functions
 ├── inference.py                                # The main inference script
-├── input                                       # Input folder                                 
-│   ├── AccFactor04                             # Acceleration factor 4
-│   ├── AccFactor08                             # Acceleration factor 8
-│   └── AccFactor10                             # Acceleration factor 10
+├── input                                       # Input folder
+|   └── SingleCoil
+|       └── Cine                                                                         
+|           ├── AccFactor04                             # Acceleration factor 4
+|           ├── AccFactor08                             # Acceleration factor 8
+|           └── AccFactor10                             # Acceleration factor 10
 ├── logs
 │   └── Experiment1
 │       └── checkpoints
