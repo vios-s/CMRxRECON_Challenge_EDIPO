@@ -39,12 +39,13 @@ The file structure is as follows:
 ├── README.md
 ├── requirements.txt
 └── utils                                       # Utility functions                                    
-    ├── evaluate.py                             # Evaluation functions                           
-    ├── fft.py                                  # FFT functions                                       
-    ├── __init__.py
-    ├── io.py                                   # IO functions, save reconstructions to mat                                    
-    ├── losses.py                               # Loss functions
-    └── math.py                                 # Complex math functions
+|    ├── evaluate.py                            # Evaluation functions                           
+|    ├── fft.py                                 # FFT functions                                       
+|    ├── __init__.py
+|    ├── io.py                                  # IO functions, save reconstructions to mat                                    
+|    ├── losses.py                              # Loss functions
+|    └── math.py                                # Complex math functions
+|___ visualize_and_evaluate.py                  # Code to make some visualization of recon images and compute SSIM-NMSE-PSNR metrics
 ```
 
 ## How to run
