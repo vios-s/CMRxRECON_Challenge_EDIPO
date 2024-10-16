@@ -1,5 +1,5 @@
 hdf5storage==0.1.19
-lightning==2.0.4
+lightning==2.3.3
 mat73==0.60
 natsort==8.4.0
 numpy==1.25.0
